@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CoroutineUsageDemo</string>
+    <string name="base_usage">基础用法</string>
+
+    <string name="launch_io">启动IO调度器的协程</string>
+    <string name="launch_main">启动Main调度器的协程</string>
 </resources>

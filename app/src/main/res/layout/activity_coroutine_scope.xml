@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/launch_by_scope"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_by_scope_in_page" />
+
+    <Button
+        android:id="@+id/cancel_by_scope"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/cancel_by_scope" />
+
+    <Button
+        android:id="@+id/cancel_children"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/cancel_children" />
+
+    <Button
+        android:id="@+id/launch_by_global_scope"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_by_global_scope"/>
+
+    <Button
+        android:id="@+id/launch_by_new_scope"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_by_new_scope"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_show_rv"
+        style="@style/MsgRvLinearStyle" />
+
+</LinearLayout>

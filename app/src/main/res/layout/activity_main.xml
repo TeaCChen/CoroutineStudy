@@ -23,5 +23,10 @@
         android:text="@string/coroutine_cancel_step_one"
         app:layout_constraintTop_toBottomOf="@id/with_context_btn" />
 
+    <Button
+        android:id="@+id/coroutine_scope_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/coroutine_scope"
+        app:layout_constraintTop_toBottomOf="@id/cancel_step_one_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

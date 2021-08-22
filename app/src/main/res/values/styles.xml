@@ -9,6 +9,14 @@
         <item name="layout_constraintRight_toRightOf">parent</item>
     </style>
 
+    <style name="ButtonLinearStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
     <style name="MsgRvStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
@@ -17,5 +25,12 @@
         <item name="layout_constraintBottom_toBottomOf">parent</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="MsgRvLinearStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
     </style>
 </resources>

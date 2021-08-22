@@ -16,7 +16,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             viewBinding.withContextBtn,
             viewBinding.cancelStepOneBtn,
             viewBinding.coroutineScopeBtn,
-            viewBinding.cancelStepTwoBtn
+            viewBinding.cancelStepTwoBtn,
+            viewBinding.suspendStepOne
         )
     }
 
@@ -40,6 +41,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
             viewBinding.cancelStepTwoBtn -> {
                 startTo(CancelStepTwoActivity::class.java)
+            }
+
+            viewBinding.suspendStepOne -> {
+                startTo(SuspendStepOneActivity::class.java)
             }
         }
     }

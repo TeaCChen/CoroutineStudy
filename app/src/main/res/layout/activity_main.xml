@@ -29,4 +29,9 @@
         style="@style/ButtonLinearStyle"
         android:text="@string/coroutine_cancel_step_two" />
 
+    <Button
+        android:id="@+id/suspend_step_one"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_suspend_step_one" />
+
 </LinearLayout>

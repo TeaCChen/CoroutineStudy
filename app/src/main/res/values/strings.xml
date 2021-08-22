@@ -8,6 +8,7 @@
     <string name="coroutine_cancel_step_one">初遇取消</string>
     <string name="coroutine_scope">协程作用域</string>
     <string name="coroutine_cancel_step_two">再遇取消</string>
+    <string name="coroutine_suspend_step_one">初识挂起</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>
@@ -24,5 +25,10 @@
     <string name="cancel_children">页面作用域取消已启动的协程</string>
     <string name="launch_by_global_scope">GlobalScope启动协程</string>
     <string name="launch_by_new_scope">新建作用域启动协程</string>
+
+    <string name="launch_coroutine">launch启动协程</string>
+    <string name="job_join">挂起等待job完成</string>
+    <string name="async_coroutine">async启动协程</string>
+    <string name="deferred_await">挂起等待await返回值</string>
 
 </resources>

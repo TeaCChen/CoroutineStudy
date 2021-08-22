@@ -13,7 +13,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         super.onCreate(savedInstanceState)
         onClickListener.attachToViews(
             viewBinding.baseBtn,
-            viewBinding.withContextBtn
+            viewBinding.withContextBtn,
+            viewBinding.cancelStepOneBtn
         )
     }
 
@@ -22,8 +23,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             viewBinding.baseBtn -> {
                 startTo(UsageBasicActivity::class.java)
             }
+
             viewBinding.withContextBtn -> {
                 startTo(WithContextActivity::class.java)
+            }
+
+            viewBinding.cancelStepOneBtn -> {
+                startTo(CancelStepOneActivity::class.java)
             }
         }
     }

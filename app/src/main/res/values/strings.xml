@@ -7,6 +7,7 @@
     <string name="coroutine_with_context">切换线程</string>
     <string name="coroutine_cancel_step_one">初遇取消</string>
     <string name="coroutine_scope">协程作用域</string>
+    <string name="coroutine_cancel_step_two">再遇取消</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>

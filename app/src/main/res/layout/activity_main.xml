@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/base_btn"
-        style="@style/ButtonConstraintStyle"
-        android:onClick="onClick"
-        android:text="@string/coroutine_launch"
-        app:layout_constraintTop_toTopOf="parent" />
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_launch" />
 
     <Button
         android:id="@+id/with_context_btn"
-        style="@style/ButtonConstraintStyle"
-        android:text="@string/coroutine_with_context"
-        app:layout_constraintTop_toBottomOf="@id/base_btn" />
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_with_context" />
 
     <Button
         android:id="@+id/cancel_step_one_btn"
-        style="@style/ButtonConstraintStyle"
-        android:text="@string/coroutine_cancel_step_one"
-        app:layout_constraintTop_toBottomOf="@id/with_context_btn" />
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_cancel_step_one" />
 
     <Button
         android:id="@+id/coroutine_scope_btn"
-        style="@style/ButtonConstraintStyle"
-        android:text="@string/coroutine_scope"
-        app:layout_constraintTop_toBottomOf="@id/cancel_step_one_btn" />
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_scope" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/cancel_step_two_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_cancel_step_two" />
+
+</LinearLayout>

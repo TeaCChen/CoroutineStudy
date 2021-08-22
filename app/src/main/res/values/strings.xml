@@ -6,6 +6,7 @@
     <string name="coroutine_launch">启动协程</string>
     <string name="coroutine_with_context">切换线程</string>
     <string name="coroutine_cancel_step_one">初遇取消</string>
+    <string name="coroutine_scope">协程作用域</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>
@@ -16,4 +17,11 @@
     <string name="cancel_step_one_looping">启动循环执行的协程</string>
     <string name="cancel_step_one_looping_break">带有break的协程</string>
     <string name="cancel_step_one_looping_ensure">带有ensureActive的协程</string>
+
+    <string name="launch_by_scope_in_page">用页面的作用域启动协程</string>
+    <string name="cancel_by_scope">页面作用域取消</string>
+    <string name="cancel_children">页面作用域取消已启动的协程</string>
+    <string name="launch_by_global_scope">GlobalScope启动协程</string>
+    <string name="launch_by_new_scope">新建作用域启动协程</string>
+
 </resources>

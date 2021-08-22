@@ -14,7 +14,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         onClickListener.attachToViews(
             viewBinding.baseBtn,
             viewBinding.withContextBtn,
-            viewBinding.cancelStepOneBtn
+            viewBinding.cancelStepOneBtn,
+            viewBinding.coroutineScopeBtn
         )
     }
 
@@ -30,6 +31,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
             viewBinding.cancelStepOneBtn -> {
                 startTo(CancelStepOneActivity::class.java)
+            }
+
+            viewBinding.coroutineScopeBtn -> {
+                startTo(CoroutineScopeActivity::class.java)
             }
         }
     }

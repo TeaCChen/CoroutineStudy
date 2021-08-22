@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutineUsageDemo">
         <activity
+            android:name=".activity.CancelStepOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activity.WithContextActivity"
             android:screenOrientation="portrait" />
         <activity

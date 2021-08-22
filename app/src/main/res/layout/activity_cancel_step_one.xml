@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CancelStepOneActivity">
+
+    <Button
+        android:id="@+id/loop_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/cancel_step_one_looping"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loop_break_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/cancel_step_one_looping_break"
+        app:layout_constraintTop_toBottomOf="@id/loop_btn" />
+
+    <Button
+        android:id="@+id/loop_ensure_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/cancel_step_one_looping_ensure"
+        app:layout_constraintTop_toBottomOf="@id/loop_break_btn" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/coroutine_cancel"
+        app:layout_constraintTop_toBottomOf="@id/loop_ensure_btn" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_show_rv"
+        style="@style/MsgRvStyle"
+        app:layout_constraintTop_toBottomOf="@id/cancel_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

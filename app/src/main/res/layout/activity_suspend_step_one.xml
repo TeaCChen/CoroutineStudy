@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/launch_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_coroutine" />
+
+    <Button
+        android:id="@+id/join_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/job_join" />
+
+    <Button
+        android:id="@+id/async_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/async_coroutine" />
+
+    <Button
+        android:id="@+id/await_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/deferred_await" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/cancel_children" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_show_rv"
+        style="@style/MsgRvLinearStyle" />
+
+</LinearLayout>

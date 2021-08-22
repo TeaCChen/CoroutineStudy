@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.WithContextActivity">
+
+    <Button
+        android:id="@+id/io_to_main_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/with_io_to_main"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_to_io_btn"
+        style="@style/ButtonConstraintStyle"
+        android:text="@string/with_main_to_io"
+        app:layout_constraintTop_toBottomOf="@id/io_to_main_btn" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_show_rv"
+        style="@style/MsgRvStyle"
+        app:layout_constraintTop_toBottomOf="@id/main_to_io_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

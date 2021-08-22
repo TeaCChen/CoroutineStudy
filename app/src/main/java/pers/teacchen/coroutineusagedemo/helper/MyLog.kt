@@ -2,7 +2,6 @@ package pers.teacchen.coroutineusagedemo.helper
 
 import android.util.Log
 import kotlinx.coroutines.CoroutineScope
-import java.text.SimpleDateFormat
 import kotlin.coroutines.ContinuationInterceptor
 import kotlin.coroutines.CoroutineContext
 
@@ -19,10 +18,13 @@ fun buildUIMsg(msg: String) =
         append("]")
     }
 
-fun myLog(msg: String) = Log.d(
-    "chenhj",
-    "$msg ::running in Thread:[id:${Thread.currentThread().id}][name:${Thread.currentThread().name}]"
-)
+fun myLog(msg: String) {
+    val curThread = Thread.currentThread()
+    Log.d(
+        "chenhj",
+        "$msg ::running in Thread:[id:${curThread.id}][name:${curThread.name}]"
+    )
+}
 
 fun CoroutineContext.printLog(msg: String) =
     myLog(

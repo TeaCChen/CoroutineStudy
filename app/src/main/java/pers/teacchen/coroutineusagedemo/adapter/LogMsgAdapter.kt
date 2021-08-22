@@ -29,7 +29,6 @@ class LogMsgAdapter : RecyclerView.Adapter<LogMsgAdapter.ViewHolder>() {
 
     fun addMsg(msg: String) {
         msgList.add(msg)
-        myLog("" + msgList.size)
         notifyItemInserted(msgList.size - 1)
     }
 

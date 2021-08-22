@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">CoroutineUsageDemo</string>
-    <string name="base_usage">基础用法</string>
+    <string name="coroutine_launch">启动协程</string>
+    <string name="coroutine_with_context">切换线程</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>
+
+    <string name="with_io_to_main">从IO到Main</string>
+    <string name="with_main_to_io">从Main到IO</string>
 </resources>

@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutineUsageDemo">
-        <activity android:name=".activity.UsageBasicActivity"></activity>
-        <activity android:name=".activity.MainActivity">
+        <activity
+            android:name=".activity.WithContextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UsageBasicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -2,6 +2,7 @@
     <string name="app_name">CoroutineUsageDemo</string>
 
     <string name="coroutine_cancel">取消协程</string>
+    <string name="coroutine_cancel_children">取消页面协程</string>
 
     <string name="coroutine_launch">启动协程</string>
     <string name="coroutine_with_context">切换线程</string>
@@ -9,6 +10,7 @@
     <string name="coroutine_scope">协程作用域</string>
     <string name="coroutine_cancel_step_two">再遇取消</string>
     <string name="coroutine_suspend_step_one">初识挂起</string>
+    <string name="coroutine_structured_step_one">初识结构化</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>
@@ -30,5 +32,8 @@
     <string name="job_join">挂起等待job完成</string>
     <string name="async_coroutine">async启动协程</string>
     <string name="deferred_await">挂起等待await返回值</string>
+
+    <string name="launch_structured">launch结构化启动协程</string>
+    <string name="supervisor_scope">supervisorScope示例</string>
 
 </resources>

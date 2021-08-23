@@ -19,6 +19,9 @@ val currentTimeStr: String
         }
     }
 
+val randomMilli: Long
+    get() = (FIVE_SECONDS..TEN_SECONDS).random()
+
 private val Int.timeStr: String
     get() = if (this < 10) {
         "0$this"

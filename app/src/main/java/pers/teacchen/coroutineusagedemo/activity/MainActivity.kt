@@ -17,35 +17,20 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             viewBinding.cancelStepOneBtn,
             viewBinding.coroutineScopeBtn,
             viewBinding.cancelStepTwoBtn,
-            viewBinding.suspendStepOne
+            viewBinding.suspendStepOne,
+            viewBinding.structuredStepOne
         )
     }
 
     override fun onClick(v: View) {
         when (v) {
-            viewBinding.baseBtn -> {
-                startTo(UsageBasicActivity::class.java)
-            }
-
-            viewBinding.withContextBtn -> {
-                startTo(WithContextActivity::class.java)
-            }
-
-            viewBinding.cancelStepOneBtn -> {
-                startTo(CancelStepOneActivity::class.java)
-            }
-
-            viewBinding.coroutineScopeBtn -> {
-                startTo(CoroutineScopeActivity::class.java)
-            }
-
-            viewBinding.cancelStepTwoBtn -> {
-                startTo(CancelStepTwoActivity::class.java)
-            }
-
-            viewBinding.suspendStepOne -> {
-                startTo(SuspendStepOneActivity::class.java)
-            }
+            viewBinding.baseBtn -> startTo(UsageBasicActivity::class.java)
+            viewBinding.withContextBtn -> startTo(WithContextActivity::class.java)
+            viewBinding.cancelStepOneBtn -> startTo(CancelStepOneActivity::class.java)
+            viewBinding.coroutineScopeBtn -> startTo(CoroutineScopeActivity::class.java)
+            viewBinding.cancelStepTwoBtn -> startTo(CancelStepTwoActivity::class.java)
+            viewBinding.suspendStepOne -> startTo(SuspendStepOneActivity::class.java)
+            viewBinding.structuredStepOne -> startTo(StructuredStepOneActivity::class.java)
         }
     }
 }

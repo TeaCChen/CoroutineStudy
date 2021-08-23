@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutineUsageDemo">
         <activity
+            android:name=".activity.StructuredStepOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activity.SuspendStepOneActivity"
             android:screenOrientation="portrait" />
         <activity

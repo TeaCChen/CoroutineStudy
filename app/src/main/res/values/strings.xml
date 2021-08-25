@@ -11,6 +11,7 @@
     <string name="coroutine_cancel_step_two">再遇取消</string>
     <string name="coroutine_suspend_step_one">初识挂起</string>
     <string name="coroutine_structured_step_one">初识结构化</string>
+    <string name="coroutine_exception_step_one">初识协程异常</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>
@@ -35,5 +36,9 @@
 
     <string name="launch_structured">launch结构化启动协程</string>
     <string name="supervisor_scope">supervisorScope示例</string>
+
+    <string name="launch_throw_exception">协程中抛出异常</string>
+    <string name="launch_with_try_catch">try-catch示例</string>
+    <string name="launch_with_exception_handler">ExceptionHandler示例</string>
 
 </resources>

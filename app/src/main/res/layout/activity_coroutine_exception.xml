@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/launch_throw_exception"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_throw_exception" />
+
+    <Button
+        android:id="@+id/launch_with_try_catch"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_with_try_catch" />
+
+    <Button
+        android:id="@+id/launch_with_exception_handler"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_with_exception_handler" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_cancel_children" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_show_rv"
+        style="@style/MsgRvLinearStyle" />
+
+</LinearLayout>

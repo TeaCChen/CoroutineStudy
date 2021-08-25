@@ -39,4 +39,9 @@
         style="@style/ButtonLinearStyle"
         android:text="@string/coroutine_structured_step_one" />
 
+    <Button
+        android:id="@+id/exception_step_one"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_exception_step_one" />
+
 </LinearLayout>

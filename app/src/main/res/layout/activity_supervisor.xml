@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/launch_with_job"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_with_job" />
+
+    <Button
+        android:id="@+id/launch_with_supervisor_job"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/launch_with_supervisor_job" />
+
+    <Button
+        android:id="@+id/suspend_with_job"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/suspend_with_job" />
+
+    <Button
+        android:id="@+id/suspend_with_supervisor_job"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/suspend_with_supervisor_job" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        style="@style/ButtonLinearStyle"
+        android:text="@string/coroutine_cancel_children" />
+
+</LinearLayout>

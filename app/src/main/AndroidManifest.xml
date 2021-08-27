@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutineUsageDemo">
         <activity
+            android:name=".activity.SupervisorActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activity.CoroutineExceptionActivity"
             android:screenOrientation="portrait" />
         <activity

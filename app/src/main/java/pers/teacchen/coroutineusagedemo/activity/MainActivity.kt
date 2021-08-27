@@ -19,7 +19,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             viewBinding.cancelStepTwoBtn,
             viewBinding.suspendStepOne,
             viewBinding.structuredStepOne,
-            viewBinding.exceptionStepOne
+            viewBinding.exceptionStepOne,
+            viewBinding.exceptionSupervisor
         )
     }
 
@@ -33,6 +34,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             viewBinding.suspendStepOne -> startTo(SuspendStepOneActivity::class.java)
             viewBinding.structuredStepOne -> startTo(StructuredStepOneActivity::class.java)
             viewBinding.exceptionStepOne -> startTo(CoroutineExceptionActivity::class.java)
+            viewBinding.exceptionSupervisor -> startTo(SupervisorActivity::class.java)
         }
     }
 }

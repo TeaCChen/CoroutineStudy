@@ -12,6 +12,7 @@
     <string name="coroutine_suspend_step_one">初识挂起</string>
     <string name="coroutine_structured_step_one">初识结构化</string>
     <string name="coroutine_exception_step_one">初识协程异常</string>
+    <string name="coroutine_exception_supervisor">异常与supervisor</string>
 
     <string name="launch_io">启动IO调度器的协程</string>
     <string name="launch_main">启动Main调度器的协程</string>
@@ -40,5 +41,10 @@
     <string name="launch_throw_exception">协程中抛出异常</string>
     <string name="launch_with_try_catch">try-catch示例</string>
     <string name="launch_with_exception_handler">ExceptionHandler示例</string>
+
+    <string name="launch_with_job">以Job为根节点</string>
+    <string name="launch_with_supervisor_job">以SupervisorJob为根节点</string>
+    <string name="suspend_with_job">以Job为根节点挂起</string>
+    <string name="suspend_with_supervisor_job">以SupervisorJob为根节点挂起</string>
 
 </resources>
